@@ -1,0 +1,254 @@
+/* home */
+:root{
+  --color-primary:#a90036;
+  --color-white:#1f1818;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+  }
+  .logo{
+      color: var(--color-white);
+      font-size: 20px;
+  }
+  .logo span{
+  color: var(--color-primary);
+  }
+  header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+  }
+  .naf ul {
+  list-style: none;
+  display: flex;
+  }
+  .naf ul li{
+      padding: 10px 22px;
+  }
+  .naf  li a:hover{
+      color: #a90008;
+  }
+   ul li,a{
+      padding: 5px 10px;
+      display: inline-block;
+      font-family:"Montserrat" sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #160b0b;
+      text-decoration: none;}
+      .h{
+        text-transform: uppercase;
+          font-family: Cursive;
+          font-size: 50px;
+          color:rgb(183, 31, 31);
+          margin-top: 150px;
+          margin-left: 200px;
+        }
+         p.class4{
+          text-transform: uppercase;
+          font-family:Serif;
+          font-size: 20px;
+          margin-left: 200px;
+          margin-top:30px ;
+      }
+      .t{
+        text-transform: uppercase;
+          font-family:Serif;
+          font-size: 20px;
+          margin-left: 200px;
+         color: #a90008;}
+  /*donat*/
+
+
+body{
+  background:#e6757533;
+align-items: center;
+justify-content: center;
+
+}
+.cover{
+width: 900px;
+height: 400px;
+margin-top: 50px;
+display: flex;
+}
+.box{
+  margin: 10px;
+  width: 800;
+  height: 500px;
+  box-shadow: -1px 0 10px #8644446c;
+  align-items: center;
+  justify-content: center;
+  text-align: center;}
+.box .my-boutton{
+font-size: 16px;
+padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgb(227, 78, 78);
+}
+.box .my-boutton:hover{
+  background-color: rgb(225, 163, 163);
+  color: rgb(248, 239, 239);
+}
+.my-boutton a{
+align-items: center;
+justify-content: center;
+text-decoration: none;
+color: #5b5858;
+padding: 10px 20px;
+}
+.my-boutton a:active {
+background-color: bisque;
+color: aquamarine;
+}
+
+img{
+  width: 300;
+  height: 200px; 
+  display: flex;
+}
+table, td, th {
+  border: 1px solid;
+}
+/* ---------------------*/
+.blod1{
+text-align:left;
+font-family: Georgia, Times, 'Times New Roman', serif;
+font: size 10px;;
+color: blue;
+border: 20px; 
+margin-left: 20px;
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+  margin-left: 150px;
+
+}
+  th{
+    height: 50px;
+    background-color: rgb(198, 156, 156);
+    color: azure;
+  }
+  td{
+  text-align: center;
+}
+.pic{
+width: 100px;
+height: 100px;
+
+}
+/* our tame*/
+.bush{
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+   text-align: center;
+  }
+  .list{
+
+    font-size: 15px;
+    color: #cc4b4b;}
+
+#lists {
+  margin: 0 auto;
+  text-align: center;
+ justify-content: space-around;
+ position: absolute;
+ padding: 70px;
+ right: 400;;
+ }
+
+
+ /* form contact*/
+
+ *{
+  margin: 0;
+  padding: 0;
+  border: 5px;
+ box-sizing: content-box;
+}
+.container{
+  position: fixed;
+  width:300px ;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 17px;
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  border: 2px solid gainsboro;
+}
+h2{
+  text-align: center;
+  font-size: 38px;
+  color: #eb6d6d; 
+}
+.input-box{
+position: relative;
+width:100% ;
+margin:15px 0 ;
+border-bottom: 2px solid rgb(146, 142, 142);
+}
+.input-box input,
+.input-box textarea{
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color: rgb(70, 70, 68);
+  outline: none;
+}
+.input-box textarea{
+  padding: 10px 0;
+  resize: none;
+}
+.sub{
+  background: #eb6d6d;
+  color: aliceblue;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50px;
+}
+@media screen and(max-width:1024px){
+ .jinan{
+width: 200px;
+height: 200px;
+
+
+ }
+  .bush{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+     text-align: center;
+    }
+  .input-box{
+    width: 50% ;
+ }
+ .input-box label{
+font-size: 12px;
+
+ }
+ .input-box input,
+.input-box textarea{
+  width: 50%;
+  height: 50px;
+}
+
+}
